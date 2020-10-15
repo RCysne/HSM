@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 40rem;
+  height: 100%;
+  line-height: 2.2rem;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+h4 {
+  color: rgb(157, 97, 177);
+  margin-top: 5rem;
+}
+
+fieldset {
+  padding: 1rem;
+}
+
+#name {
+  width: 15rem;
+}
+
+#adress {
+  width: 25rem;
+}
+
+#valor {
+  width: 4rem;
+}
+
+#money {
+  width: 6rem;
+}

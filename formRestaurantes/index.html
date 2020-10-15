@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário de Pedido</title>
+  </head>
+  <body>
+    <h4>Lista de recomendações de restaurantes</h4>
+
+    <fieldset class="estabelecimento">
+      <legend>SOBRE O RESTAURANTE</legend>
+      Nome do estabelecimento:
+      <input type="text" name="name" id="name" /> <br />
+      Endereço:
+      <input type="text" name="adress" id="adress" /> <br />
+      Telefone:
+      <input type="tel" name="phone" id="phone" /> <br />
+      Categoria:
+      <input type="checkbox" name="lanches" id="lanches" />
+      Lanches
+      <input type="checkbox" name="pizzas" id="pizzas" />
+      Pizzas
+      <input type="checkbox" name="burger" id="burger" />
+      Hambúrgueres
+      <input type="checkbox" name="japonese" id="japonese" />
+      Japonesa
+      <input type="checkbox" name="china" id="china" />
+      Chinesa <br />
+      Faixa de Valores:
+      <input type="number" name="valor" id="valor" placeholder="$" />
+    </fieldset>
+    <fieldset class="experiencia">
+      <legend>CONTE SUA EXPERIÊNCIA</legend>
+      O que pediu?
+      <input type="text" name="pedido" id="pedido" /> <br />
+      Quanto foi?
+      <input type="text" name="money" id="money" placeholder="R$" /> <br />
+      Entregou rápido?
+      <input type="radio" name="entrega" id="yes" />Sim
+      <input type="radio" name="entrega" id="no" />Não <br />
+
+      Observações: <br />
+      <textarea name="obs" id="obs" cols="50" rows="5"></textarea>
+    </fieldset>
+  </body>
+</html>
