@@ -10,15 +10,35 @@ body {
   line-height: 2.2rem;
   margin: 0 auto;
   font-size: 1.2rem;
+  font-family: Verdana;
+  color: rgb(56, 90, 90);
 }
 
 h4 {
+  font-family: 'Verdana';
+  font-size: 1.2rem;
   color: rgb(157, 97, 177);
   margin-top: 5rem;
 }
 
 fieldset {
   padding: 1rem;
+  border-radius: 0.5rem;
+  border-color: darkorchid;
+  width: 100%;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+  color: rgb(55, 179, 176);
+}
+
+input,
+textarea {
+  color: blueviolet;
+  font-size: medium;
 }
 
 #name {
@@ -35,4 +55,31 @@ fieldset {
 
 #money {
   width: 6rem;
+}
+
+#btnC {
+  width: 6rem;
+  height: 2rem;
+  background: cadetblue;
+  color: rgb(111, 76, 122);
+  border-radius: 1rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+
+.btn {
+  position: relative;
+}
+
+#btnS {
+  width: 6rem;
+  height: 2rem;
+  background: cadetblue;
+  color: rgb(111, 76, 122);
+  border-radius: 1rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
