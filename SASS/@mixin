@@ -1,0 +1,24 @@
+
+
+@mixin erro {
+    color: red;
+    font-size: 12px;
+    background: #EFEFEF;
+}
+
+@mixin sucesso {
+    color: green;
+    font-size: 13px;
+    font-family: "Roboto";
+}
+
+@mixin destaque {
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+@mixin alerta {
+    color: black;
+    background: yellow;
+}
